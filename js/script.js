@@ -43,10 +43,23 @@
 	// }
 // }
 
-$(document).ready(function(){
-	$("img").click(function(){
+var carrousel = {
+	nbSlide : 0,
+	nbCurrent : 1,
+	elemCurrent : null,
+	elem : null,
+
+	init : function(elem){
+		this.nbSlide = elem.find(".slide").length;
+
+		//Créer la pagination
 		
 	}
+}
+
+$(function(){
+	carrousel.init($("#carrousel"))
+	alert(carrousel.nbSlide);
 }
 
 

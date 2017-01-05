@@ -1,0 +1,15 @@
+.contenu-slider{
+	border: solid 5px #e7dbc5;
+	width: 720px;
+	height: 264px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 712px;
+	height: 264px;
+}
