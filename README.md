@@ -1,0 +1,2 @@
+# Slider-jQuery
+Début jQuery
