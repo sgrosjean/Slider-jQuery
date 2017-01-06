@@ -43,35 +43,25 @@
 	// }
 // }
 
-var carrousel = {
-	nbSlide : 0,
-	nbCurrent : 1,
-	elemCurrent : null,
-	elem : null,
+// var carrousel = {
+// 	nbSlide : 0,
+// 	nbCurrent : 1,
+// 	elemCurrent : null,
+// 	elem : null,
 
-	init : function(elem){
-		this.nbSlide = elem.find(".slide").length;
+// 	init : function(elem){
+// 		this.nbSlide = elem.find(".slide").length;
 
-		//Créer la pagination
+// 		//Créer la pagination
 		
-	}
-}
+// 	}
+// }
 
-$(function(){
-	carrousel.init($("#carrousel"))
-	alert(carrousel.nbSlide);
-}
+// $(function(){
+// 	carrousel.init($("#carrousel"))
+// 	alert(carrousel.nbSlide);
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+$(document).ready(function(){<font></font>
+  $('.bxslider').bxSlider();<font></font>
+});
